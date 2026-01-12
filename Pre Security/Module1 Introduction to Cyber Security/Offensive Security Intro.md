@@ -1,4 +1,5 @@
 # Offensive Security Intro
+Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
 
 ## What is Offensive Security?
 
