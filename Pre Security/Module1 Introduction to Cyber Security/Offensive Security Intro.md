@@ -21,11 +21,16 @@ gobuster -u http://fakebank.thm -w wordlist.txt dir
 ```
 
 #### Command Breakdown
-| |      |Description|
+| |Flag  |Description|
 |-----------|------|------------------|
 |`-u` | URL | Target URL|
 |`-w` | Wordlist | Wordlist containing possible directory names|
 |`dir` | Mode | Directory brute-forcing mode|
+
+In newer versions of **Gobuster (v3+)**, the mode is typically placed immediately after the main command. The correct modern syntax would be:
+```bash
+gobuster dir -u http://fakebank.thm -w wordlist.txt
+```
 
 ### Output
 ```
