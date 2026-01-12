@@ -21,7 +21,7 @@ gobuster -u http://fakebank.thm -w wordlist.txt dir
 ```
 
 #### Command Breakdown
-| |Flag  |Description|
+|Flag|  |Description|
 |-----------|------|------------------|
 |`-u` | URL | Target URL|
 |`-w` | Wordlist | Wordlist containing possible directory names|
